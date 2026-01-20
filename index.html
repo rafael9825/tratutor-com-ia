@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-AU-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descrição do meu Documento">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="caixa-maior">
+
+        <textarea class="input-texto"></textarea>
+
+        <div class="controle">
+            <select class="idioma">
+                <option value="en">Inglês</option>
+                <option value="pt">Português</option>
+                <option value="es">Espanhol</option>
+                <option value="fr">Francês</option>
+                <option value="de">Alemão</option>
+                <option value="it">Italiano</option>
+                <option value="ja">Japonês</option>
+            </select>
+
+            <button onclick="traduzir()">
+                <img src="/img/traduzir.svg">
+            </button>
+
+            <button onclick="ouvirVoz()">
+                <img src="/img/microfone.svg">
+            </button>
+        </div>
+
+        <div class="resultado">
+            <h3 class="titulo-traducao">Tradução</h3>
+            <p class="traducao">A Tradução aparecerá Aqui...</p>
+        </div>
+
+    </div>
+
+    <script src="scripts.js"></script>
+</body>    
+
+</html>
